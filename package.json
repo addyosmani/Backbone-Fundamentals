@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/addyosmani/backbone-fundamentals/issues"
   },
-  "homepage": "https://github.com/addyosmani/backbone-fundamentals"
+  "homepage": "https://github.com/addyosmani/backbone-fundamentals",
+  "dependencies": {
+    "backbone": "^1.5.0",
+    "jquery": "^3.7.1",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "pandoc": "^0.2.0"
+  },
+  "scripts": {
+    "build": "make all"
+  }
 }
