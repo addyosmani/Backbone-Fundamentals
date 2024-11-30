@@ -1,0 +1,33 @@
+title: Developing Backbone.js Applications
+description: A comprehensive guide to building Backbone.js applications
+baseurl: "/backbone-fundamentals"
+url: "https://addyosmani.github.io"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - node_modules
+  - Makefile
+  - package.json
+  - package-lock.json
+  - README.md
+  - .gitignore
+  - practicals/
+  - build/
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
